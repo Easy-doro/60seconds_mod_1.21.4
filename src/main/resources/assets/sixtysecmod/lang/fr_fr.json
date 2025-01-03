@@ -1,0 +1,27 @@
+{
+  "item.sixtysecmod.soup": "Soupe",
+  "item.sixtysecmod.water": "Eau",
+  "item.sixtysecmod.ammunition": "Munitions",
+  "item.sixtysecmod.axe": "Hache",
+  "item.sixtysecmod.checkers": "Echiquier",
+  "item.sixtysecmod.city_map": "Plan de la ville",
+  "item.sixtysecmod.deck_of_cards": "Paquet de cartes",
+  "item.sixtysecmod.gas_mask": "Masque à Gaz",
+  "item.sixtysecmod.journal": "Journal",
+  "item.sixtysecmod.medkit": "Medkit",
+  "item.sixtysecmod.padlock": "Cadenas",
+  "item.sixtysecmod.radio": "Radio",
+  "item.sixtysecmod.rifle": "Fusil",
+  "item.sixtysecmod.suitcase": "Valise",
+
+  "item.sixtysecmod.soup.tooltip": "Une durée de conservation de 737 ans!",
+  "item.sixtysecmod.water.tooltip": "L'essence de la vie, la base de la survie.",
+  "item.sixtysecmod.gas_mask.tooltip": "Nuage toxique? Un masque à gaz et vous revivez!",
+  "item.sixtysecmod.medkit.tooltip": "Pour toutes les blessures, de la coupure aux décapitations.",
+  "item.sixtysecmod.radio.tooltip": "Restez au courant, même après la fin du monde!",
+  "item.sixtysecmod.suitcase.tooltip": "Stockez plus d'objets grâce à la valise!",
+
+  "message.sixtysecmod.radio.use": "Aperçu des états des membres de la famille",
+  "message.sixtysecmod.suitcase.added": "Objet ajouté à la valise.",
+  "message.sixtysecmod.suitcase.full": "La valise est pleine."
+}

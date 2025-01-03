@@ -1,9 +1,14 @@
 package com.imir.sixtysecmod;
 
+import com.imir.sixtysecmod.client.gui.screen.SuitcaseScreen;
 import com.imir.sixtysecmod.entity.ModEntities;
+import com.imir.sixtysecmod.item.ModCreativeModeTabs;
 import com.imir.sixtysecmod.item.ModItems;
+import com.imir.sixtysecmod.menu.ModMenuTypes;
+import com.imir.sixtysecmod.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
@@ -44,8 +49,13 @@ public class SixtySecMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModEntities.register(modEventBus);
+        ModSounds.register(modEventBus);
+
+        ModMenuTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -59,10 +69,7 @@ public class SixtySecMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
-            event.accept(ModItems.SOUP);
-            event.accept(ModItems.WATER);
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
@@ -76,7 +83,7 @@ public class SixtySecMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            MenuScreens.register(ModMenuTypes.SUITCASE_MENU.get(), SuitcaseScreen::new);
         }
     }
 }

@@ -1,0 +1,14 @@
+{
+  "radio_sound": {
+    "subtitle": "sounds.sixtysecmod.radio_sound",
+    "sounds": ["sixtysecmod:radio"]
+  },
+  "suitcase_open": {
+    "subtitle": "sounds.sixtysecmod.suitcase_open",
+    "sounds": ["sixtysecmod:suitcase_open"]
+  },
+  "suitcase_close": {
+    "subtitle": "sounds.sixtysecmod.suitcase_close",
+    "sounds": ["sixtysecmod:suitcase_close"]
+  }
+}

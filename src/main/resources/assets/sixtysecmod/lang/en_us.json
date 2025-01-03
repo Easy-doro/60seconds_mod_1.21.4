@@ -1,4 +1,27 @@
 {
   "item.sixtysecmod.soup": "Soup",
-  "item.sixtysecmod.water": "Water"
+  "item.sixtysecmod.water": "Water",
+  "item.sixtysecmod.ammunition": "Ammo",
+  "item.sixtysecmod.axe": "Axe",
+  "item.sixtysecmod.checkers": "Checkers",
+  "item.sixtysecmod.city_map": "Map",
+  "item.sixtysecmod.deck_of_cards": "Deck of Cards",
+  "item.sixtysecmod.gas_mask": "Gas Mask",
+  "item.sixtysecmod.journal": "Journal",
+  "item.sixtysecmod.medkit": "Medkit",
+  "item.sixtysecmod.padlock": "Padlock",
+  "item.sixtysecmod.radio": "Radio",
+  "item.sixtysecmod.rifle": "Rifle",
+  "item.sixtysecmod.suitcase": "Suitcase",
+
+  "item.sixtysecmod.soup.tooltip": "Can be stored for up to 737 years!",
+  "item.sixtysecmod.water.tooltip": "Essence of life - basis of survival.",
+  "item.sixtysecmod.gas_mask.tooltip": "Bad smell? Toxic fog? Just put on a gas mask and keep enjoying life!",
+  "item.sixtysecmod.medkit.tooltip": "For all injuries, ranging from paper cut to decapitations.",
+  "item.sixtysecmod.radio.tooltip": "Keep up with the world even after it ends!",
+  "item.sixtysecmod.suitcase.tooltip": "Store extra supplies for vacation with the suitcase!",
+
+  "message.sixtysecmod.radio.use": "Overview of family members states",
+  "message.sixtysecmod.suitcase.added": "Item added to the suitcase.",
+  "message.sixtysecmod.suitcase.full": "The suitcase is full."
 }
